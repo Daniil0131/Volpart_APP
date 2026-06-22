@@ -1,5 +1,5 @@
-// components/About/About.jsx
 import "./about.css";
+import aboutImage from "../../../assets/about.png";
 
 export function About() {
   return (
@@ -28,7 +28,7 @@ export function About() {
 
         <img
           className="about__image"
-          src="../../assets/about.png"
+          src={aboutImage}
           alt="Современное здание"
         />
       </div>
