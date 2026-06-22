@@ -28,7 +28,7 @@ export function About() {
 
         <img
           className="about__image"
-          src="/src/assets/about.png"
+          src="../../assets/about.png"
           alt="Современное здание"
         />
       </div>
