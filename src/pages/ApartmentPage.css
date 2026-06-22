@@ -1,0 +1,243 @@
+.apartment-page {
+  padding: 60px 70px 100px;
+  background: #f8f8f8;
+}
+
+.apartment-page__back {
+  display: inline-block;
+  margin-bottom: 36px;
+  color: #35541f;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.apartment-page__hero {
+  max-width: 1180px;
+  margin: 0 auto 70px;
+
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+}
+
+.apartment-page__image {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.apartment-page__info {
+  padding: 40px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.apartment-page__title {
+  margin: 0 0 20px;
+  color: #35541f;
+  font-size: 42px;
+}
+
+.apartment-page__address {
+  margin: 0 0 24px;
+  color: #777;
+  font-size: 17px;
+}
+
+.apartment-page__description {
+  margin: 0 0 30px;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.apartment-page__price {
+  margin: 0 0 32px;
+  color: #35541f;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.apartment-page__button,
+.apartment-page__review-button {
+  height: 50px;
+  padding: 0 28px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #35541f;
+  color: white;
+
+  cursor: pointer;
+}
+
+.apartment-page__calendar,
+.apartment-page__reviews {
+  max-width: 1180px;
+  margin: 0 auto 60px;
+  padding: 40px;
+
+  border-radius: 20px;
+  background: #fff;
+}
+
+.apartment-page__calendar h2,
+.apartment-page__reviews h2 {
+  margin: 0 0 28px;
+  color: #35541f;
+  font-size: 30px;
+}
+
+.apartment-page__calendar-placeholder {
+  min-height: 260px;
+
+  border: 2px dashed #cfd8c7;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #777;
+  text-align: center;
+}
+
+.apartment-page__review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+.apartment-page__review-input {
+  min-height: 120px;
+  padding: 16px;
+
+  border: 1px solid #ddd;
+  border-radius: 12px;
+
+  resize: vertical;
+}
+
+.apartment-page__review-button {
+  width: 180px;
+}
+
+.apartment-page__review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.apartment-page__review {
+  padding: 22px;
+  border-radius: 14px;
+  background: #f7f7f7;
+}
+
+.apartment-page__review h3 {
+  margin: 0 0 10px;
+  color: #35541f;
+}
+
+.apartment-page__review p {
+  margin: 0 0 12px;
+  color: #333;
+}
+
+.apartment-page__review span {
+  color: #888;
+  font-size: 13px;
+}
+
+.apartment-page__empty,
+.apartment-page__message {
+  color: #777;
+}
+
+@media (max-width: 900px) {
+  .apartment-page {
+    padding: 30px 20px;
+  }
+
+  .apartment-page__hero {
+    grid-template-columns: 1fr;
+  }
+
+  .apartment-page__image {
+    height: 320px;
+  }
+}
+.apartment-page__rating {
+  display: flex;
+  gap: 6px;
+}
+
+.apartment-page__star {
+  border: none;
+  background: none;
+
+  font-size: 32px;
+  color: #cfcfcf;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.apartment-page__star:hover {
+  transform: scale(1.1);
+}
+
+.apartment-page__star_active {
+  color: #ffb400;
+}
+
+.apartment-page__review-stars {
+  margin-bottom: 8px;
+
+  color: #ffb400;
+  font-size: 20px;
+}
+.apartment-page__review-message {
+  margin: 0;
+  color: #35541f;
+  font-size: 14px;
+}
+
+.apartment-page__review-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.apartment-page__review-edit,
+.apartment-page__review-delete,
+.apartment-page__review-button_secondary {
+  min-width: 120px;
+  height: 42px;
+  padding: 0 18px;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.apartment-page__review-edit {
+  border: 1px solid #35541f;
+  background: white;
+  color: #35541f;
+}
+
+.apartment-page__review-delete {
+  border: 1px solid #8b2d2d;
+  background: white;
+  color: #8b2d2d;
+}
+
+.apartment-page__review-button_secondary {
+  border: 1px solid #35541f;
+  background: white;
+  color: #35541f;
+}
